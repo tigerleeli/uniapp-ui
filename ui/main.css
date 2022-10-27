@@ -89,7 +89,7 @@ image {
 
 .btn-primary {
 	font-size: 30rpx;
-	border-radius: 80rpx;
+	border-radius: 24rpx;
 }
 
 .btn-gray-blue {
@@ -97,6 +97,12 @@ image {
 	background-color: #EDEDEF;
 	padding: 8rpx 20rpx;
 	border-radius: 40rpx;
+	font-weight: 600;
+}
+
+.btn-text {
+	color: #007AFF;
+	font-weight: 600;
 }
 
 .none {
@@ -105,4 +111,12 @@ image {
 
 switch {
 	transform: scale(0.7)
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
 }

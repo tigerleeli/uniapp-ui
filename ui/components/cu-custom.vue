@@ -1,7 +1,8 @@
 <template>
 	<view>
 		<view class="navi-container" :style="[{height:CustomBar + 'px'}]">
-			<view class="navi-bar bg-gradual-blue" :style="[{height:CustomBar+'px',paddingTop:StatusBar+'px'}]">
+			<view class="navi-bar" :class="[bgColor]"
+				:style="[{height:CustomBar+'px',paddingTop:StatusBar+'px'}]">
 				<view v-if="isBack" @tap="BackPage" class="left">
 					<text class="cuIcon-back"></text>
 				</view>
@@ -32,7 +33,11 @@
 			isBack: {
 				type: [Boolean, String],
 				default: true
-			}
+			},
+			bgColor: {
+				type: String,
+				default: 'bg-gradual-blue'
+			},
 		},
 		methods: {
 			BackPage() {
@@ -75,13 +80,14 @@
 	}
 
 	.navi-bar .left {
-		margin-left: 30rpx;
+		margin-left: 24rpx;
 		font-size: 38rpx;
 		width: 100rpx;
 	}
 
 	.navi-bar .right {
-		margin-right: 28rpx;
+		margin-right: 30rpx;
 		width: 100rpx;
+		text-align: right;
 	}
 </style>

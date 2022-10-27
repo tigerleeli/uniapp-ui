@@ -9,6 +9,7 @@
 	display: table-header-group;
 	border: 1rpx #eee solid;
 	font-weight: 600;
+	font-size: 32rpx;
 }
 
 .th .td {
