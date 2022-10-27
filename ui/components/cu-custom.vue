@@ -1,11 +1,11 @@
 <template>
 	<view>
 		<view class="navi-container" :style="[{height:CustomBar + 'px'}]">
-			<view class="navi-bar bg-gradual-blue" :style="{height:CustomBar+'px',paddingTop:StatusBar+'px'}">
+			<view class="navi-bar bg-gradual-blue" :style="[{height:CustomBar+'px',paddingTop:StatusBar+'px'}]">
 				<view v-if="isBack" @tap="BackPage" class="left">
 					<text class="cuIcon-back"></text>
 				</view>
-				<view v-else>
+				<view v-else class="left">
 					<text></text>
 				</view>
 				<view class="content">
@@ -63,37 +63,25 @@
 		top: 0;
 		z-index: 1024;
 		box-shadow: 0 1rpx 6rpx rgba(0, 0, 0, 0.1);
-		
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 	}
 
 	.navi-bar .content {
-		position: absolute;
+		flex: 1;
 		text-align: center;
-		width: calc(100% - 340rpx);
-		left: 0;
-		right: 0;
-		bottom: 0;
-		top: 0;
-		margin: auto;
-		height: 60rpx;
 		font-size: 32rpx;
-		line-height: 60rpx;
-		cursor: none;
-		pointer-events: none;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-		overflow: hidden;
 	}
 
 	.navi-bar .left {
 		margin-left: 30rpx;
 		font-size: 38rpx;
+		width: 100rpx;
 	}
 
 	.navi-bar .right {
 		margin-right: 28rpx;
+		width: 100rpx;
 	}
 </style>

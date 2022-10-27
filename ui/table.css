@@ -1,0 +1,29 @@
+.table {
+	display: table;
+	border: 1rpx #eee solid;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.th {
+	display: table-header-group;
+	border: 1rpx #eee solid;
+	font-weight: 600;
+}
+
+.th .td {
+	padding: 20rpx 4rpx;
+}
+
+.tr {
+	display: table-row;
+	border: 1rpx #eee solid;
+}
+
+.td {
+	display: table-cell;
+	border: 1rpx #eee solid;
+	text-align: center;
+	padding: 16rpx 4rpx;
+	vertical-align: middle;
+}

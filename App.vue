@@ -43,4 +43,6 @@
 	@import "./ui/border.css";
 	@import "./ui/margin.css";
 	@import "./ui/padding.css";
+	@import "./ui/solid.css";
+	@import "./ui/table.css";
 </style>
