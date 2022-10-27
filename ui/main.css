@@ -21,34 +21,6 @@ image {
 	box-sizing: border-box;
 }
 
-/* 字体 */
-
-.text-blue {
-	color: #007AFF;
-}
-
-.text-white {
-	color: #FFF;
-}
-
-.text-grey {
-	color: #6E6D6E;
-}
-
-.text-gray {
-	color: #929293;
-}
-
-.text-arrow {
-	color: rgba(0, 0, 0, 0.3);
-	font-size: 48rpx;
-}
-
-.text-red {
-	color: #ff3B2D;
-}
-
-
 .bold {
 	font-weight: 600;
 }
@@ -89,51 +61,6 @@ image {
 	background-color: #E4E2E9;
 }
 
-/* 字体大小 */
-.text-26 {
-	font-size: 26rpx;
-}
-
-.text-28 {
-	font-size: 28rpx;
-}
-
-.text-30 {
-	font-size: 30rpx;
-}
-
-.text-32 {
-	font-size: 32rpx;
-}
-
-.text-34 {
-	font-size: 34rpx;
-}
-
-.text-36 {
-	font-size: 36rpx;
-}
-
-.text-36 {
-	font-size: 36rpx;
-}
-
-.text-38 {
-	font-size: 38rpx;
-}
-
-.text-40 {
-	font-size: 40rpx;
-}
-
-.text-42 {
-	font-size: 42rpx;
-}
-
-
-.text-48 {
-	font-size: 48rpx;
-}
 
 .flex {
 	display: flex;
@@ -158,18 +85,6 @@ image {
 
 .flex-1 {
 	flex: 1;
-}
-
-.text-center {
-	text-align: center;
-}
-
-.text-left {
-	text-align: left;
-}
-
-.text-right {
-	text-align: right;
 }
 
 .btn {

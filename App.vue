@@ -45,4 +45,5 @@
 	@import "./ui/padding.css";
 	@import "./ui/solid.css";
 	@import "./ui/table.css";
+	@import "./ui/text.css";
 </style>
