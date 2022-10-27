@@ -115,21 +115,21 @@
 						<text class="btn-text">扫码</text>
 					</view>
 				</view>
-				<view class="flex padding-20 solid-bottom">
+				<view class="flex padding-20 solid-bottom justify-between">
 					<view>
 						<text class="text-red">*</text>
 						<text class="text-32">开关按钮：</text>
 					</view>
-					<view class="flex-1">
+					<view>
 						<switch checked></switch>
 					</view>
 				</view>
-				<view class="flex padding-20 solid-bottom">
+				<view class="flex padding-20 solid-bottom justify-between">
 					<view>
 						<text class="text-red">*</text>
 						<text class="text-32">选择框：</text>
 					</view>
-					<view class="flex-1">
+					<view>
 						<checkbox checked></checkbox>
 					</view>
 				</view>

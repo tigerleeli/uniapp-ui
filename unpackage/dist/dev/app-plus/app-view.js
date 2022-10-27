@@ -683,7 +683,7 @@ var render = function() {
                   ),
                   _c(
                     "uni-view",
-                    { staticClass: _vm._$g(72, "sc"), attrs: { _i: 72 } },
+                    { attrs: { _i: 72 } },
                     [_c("v-uni-switch", { attrs: { checked: true, _i: 73 } })],
                     1
                   )
@@ -713,7 +713,7 @@ var render = function() {
                   ),
                   _c(
                     "uni-view",
-                    { staticClass: _vm._$g(78, "sc"), attrs: { _i: 78 } },
+                    { attrs: { _i: 78 } },
                     [
                       _c("v-uni-checkbox", { attrs: { checked: true, _i: 79 } })
                     ],
