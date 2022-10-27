@@ -87,7 +87,7 @@ image {
 	flex: 1;
 }
 
-.btn {
+.btn-primary {
 	font-size: 30rpx;
 	border-radius: 80rpx;
 }

@@ -43,7 +43,7 @@
 				</view>
 
 				<view class="margin-top-20">
-					<button class="btn" type="primary">保存</button>
+					<button class="btn-primary" type="primary">保存</button>
 				</view>
 				<view class="margin-top-20">
 					<text class="btn-gray-blue">保存</text>
