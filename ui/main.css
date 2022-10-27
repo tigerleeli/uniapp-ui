@@ -1,0 +1,147 @@
+body {
+	background-color: #F2F0F6;
+	font-size: 32rpx;
+	color: #000000;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+page {
+	background-color: #F2F0F6;
+}
+
+view,
+scroll-view,
+swiper,
+button,
+input,
+textarea,
+label,
+navigator,
+image {
+	box-sizing: border-box;
+}
+
+/* 字体 */
+
+.text-blue {
+	color: #007AFF;
+}
+
+.text-white {
+	color: #FFF;
+}
+
+.text-grey {
+	color: #6E6D6E;
+}
+
+.text-gray {
+	color: #929293;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.bg-white {
+	background-color: #FFF;
+}
+
+.bg-gradual-blue {
+	background-image: linear-gradient(45deg, #0081ff, #1cbbb4);
+	color: #ffffff;
+}
+
+.bg-content {
+	background-color: #E4E2E9;
+}
+
+/* 字体大小 */
+.text-26 {
+	font-size: 26rpx;
+}
+
+.text-28 {
+	font-size: 28rpx;
+}
+
+.text-30 {
+	font-size: 30rpx;
+}
+
+.text-32 {
+	font-size: 32rpx;
+}
+
+.text-34 {
+	font-size: 34rpx;
+}
+
+.text-36 {
+	font-size: 36rpx;
+}
+
+.text-36 {
+	font-size: 36rpx;
+}
+
+.text-38 {
+	font-size: 38rpx;
+}
+
+.solid {
+	border: 1rpx solid rgba(0, 0, 0, 0.1);
+}
+
+.solid-left {
+	border-left: 1rpx solid rgba(0, 0, 0, 0.1);
+}
+
+.solid-right {
+	border-right: 1rpx solid rgba(0, 0, 0, 0.1);
+}
+
+.solid-top {
+	border-top: 1rpx solid rgba(0, 0, 0, 0.1);
+}
+
+.solid-bottom {
+	border-bottom: 1rpx solid rgba(0, 0, 0, 0.1);
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-around {
+	justify-content: space-around;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
