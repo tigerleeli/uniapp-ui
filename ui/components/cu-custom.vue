@@ -79,7 +79,7 @@
 		top: 0;
 		margin: auto;
 		height: 60rpx;
-		font-size: 34rpx;
+		font-size: 32rpx;
 		line-height: 60rpx;
 		cursor: none;
 		pointer-events: none;
