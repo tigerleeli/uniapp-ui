@@ -10,9 +10,15 @@
 		</cu-custom>
 
 		<view class="padding-30">
-			<view class="bg-white border-radius-20">
-				<view class="flex">
-					<view>标题</view>
+			<view class="bg-white border-radius-8">
+				<view class="flex padding-20">
+					<view class="margin-right-30">
+						<text class="cuIcon-people" style="font-size: 38rpx;"></text>
+					</view>
+					<view class="flex-1">一个标题</view>
+					<view>
+						<text class="cuIcon-right text-40 text-grey"></text>
+					</view>
 				</view>
 			</view>
 		</view>
