@@ -40,11 +40,11 @@
 			</view>
 
 			<view class="bg-white border-radius-20 margin-top-30">
-				<view class="flex padding-30 solid-bottom" hover-class="bg-hover">
+				<view class="list-item" hover-class="bg-hover">
 					<image style="width: 48rpx;height: 48rpx;" mode="aspectFill"
 						class="border-radius-10 margin-right-28" src="../../static/logo.png">
 					</image>
-					<view class="flex-1">列表项1</view>
+					<view class="content">列表项1</view>
 					<view class="margin-right-20">
 						<view class="notify-content">6</view>
 					</view>
@@ -52,11 +52,11 @@
 						<text class="cuIcon-right text-arrow"></text>
 					</view>
 				</view>
-				<view class="flex padding-30 solid-bottom" hover-class="hover-class">
+				<view class="list-item" hover-class="bg-hover">
 					<image style="width: 48rpx;height: 48rpx;" mode="aspectFill"
 						class="border-radius-10 margin-right-28" src="../../static/logo.png">
 					</image>
-					<view class="flex-1">列表项2</view>
+					<view class="content">列表项2</view>
 					<view class="margin-right-20">
 						<text class="text-grey">备注</text>
 					</view>
@@ -65,14 +65,14 @@
 					</view>
 				</view>
 
-				<view class="flex padding-30 solid-bottom" hover-class="hover-class">
+				<view class="list-item" hover-class="bg-hover">
 					<view class="relative" style="width: 96rpx;height: 96rpx;">
 						<image style="width: 96rpx;height: 96rpx;" mode="aspectFill"
-							class="border-radius-10 margin-right-28" src="../../static/logo.png">
+							class="border-radius-10" src="../../static/logo.png">
 						</image>
 						<view class="absolute notify-content" style="top: -12rpx;right: -12rpx;">1</view>
 					</view>
-					<view class="flex-1 margin-left-24">
+					<view class="content margin-left-24">
 						<view class="text-34">不忘初心</view>
 						<view class="text-28 margin-top-12 text-gray">你好在吗？</view>
 					</view>
@@ -94,42 +94,38 @@
 
 
 			<view class="bg-white border-radius-20 padding-20 margin-top-30">
-				<view class="flex padding-20 solid-bottom">
-					<view>
-						<text class="text-red">*</text>
+				<view class="form-item">
+					<view class="title required">
 						<text class="text-32">输入框：</text>
 					</view>
-					<view class="flex-1">
+					<view class="content">
 						<input placeholder="请输入" />
 					</view>
 				</view>
-				<view class="flex padding-20 solid-bottom">
-					<view>
-						<text class="none">*</text>
+				<view class="form-item">
+					<view class="title required">
 						<text class="text-32">输入框：</text>
 					</view>
-					<view class="flex-1">
+					<view class="content">
 						<input placeholder="请输入" />
 					</view>
 					<view>
 						<text class="btn-text">扫码</text>
 					</view>
 				</view>
-				<view class="flex padding-20 solid-bottom justify-between">
-					<view>
-						<text class="text-red">*</text>
+				<view class="form-item">
+					<view class="title not-required">
 						<text class="text-32">开关按钮：</text>
 					</view>
-					<view>
+					<view class="content">
 						<switch checked></switch>
 					</view>
 				</view>
-				<view class="flex padding-20 solid-bottom justify-between">
-					<view>
-						<text class="text-red">*</text>
+				<view class="form-item">
+					<view class="title not-required">
 						<text class="text-32">选择框：</text>
 					</view>
-					<view>
+					<view class="content">
 						<checkbox checked></checkbox>
 					</view>
 				</view>

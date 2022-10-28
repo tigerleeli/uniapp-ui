@@ -1,0 +1,30 @@
+.form {}
+
+.form-item {
+	padding: 20rpx;
+	display: flex;
+	align-items: center;
+}
+
+.form-item .title {
+	font-size: 32rpx;
+}
+
+.form-item .required:before {
+	content: '*';
+	color: red;
+}
+
+.form-item .not-required:before {
+	content: '*';
+	opacity: 0;
+}
+
+
+.form-item .content {
+	flex: 1;
+}
+
+.form-item+.form-item {
+	border-top: 1rpx solid #f0f0f0;
+}

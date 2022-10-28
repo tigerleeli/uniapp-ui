@@ -47,4 +47,5 @@
 	@import "./ui/text.css";
 	@import "./ui/bg.css";
 	@import "./ui/btn.css";
+	@import "./ui/form.css";
 </style>

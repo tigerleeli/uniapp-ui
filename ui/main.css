@@ -59,3 +59,23 @@ image {
 .absolute {
 	position: absolute;
 }
+
+.list {}
+
+.list-item {
+	padding: 30rpx;
+	display: flex;
+	align-items: center;
+}
+
+.list-item .title {
+	min-width: 5rem;
+}
+
+.list-item .content {
+	flex: 1;
+}
+
+.list-item+.list-item {
+	border-top: 1rpx solid #f0f0f0;
+}
