@@ -21,46 +21,7 @@ image {
 	box-sizing: border-box;
 }
 
-.bold {
-	font-weight: 600;
-}
-
-.bg-white {
-	background-color: #FFF;
-}
-
-.bg-gradual-blue {
-	background-image: linear-gradient(45deg, #0081ff, #1cbbb4);
-	color: #ffffff;
-}
-
-.bg-content {
-	background-color: #E4E2E9;
-}
-
-.bg-gray {
-	background-color: #E4E2E9;
-}
-
-.bg-red {
-	background-color: #ff3B2D;
-}
-
-.notify-content {
-	padding: 4rpx 12rpx;
-	border-radius: 40rpx;
-	background-color: #ff3B2D;
-	color: #FFFFFF;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 28rpx;
-}
-
-.hover-class {
-	background-color: #E4E2E9;
-}
-
+/* 布局 */
 
 .flex {
 	display: flex;
@@ -87,30 +48,8 @@ image {
 	flex: 1;
 }
 
-.btn-primary {
-	font-size: 30rpx;
-	border-radius: 24rpx;
-}
-
-.btn-gray-blue {
-	color: #007AFF;
-	background-color: #EDEDEF;
-	padding: 8rpx 20rpx;
-	border-radius: 40rpx;
-	font-weight: 600;
-}
-
-.btn-text {
-	color: #007AFF;
-	font-weight: 600;
-}
-
 .none {
 	opacity: 0;
-}
-
-switch {
-	transform: scale(0.7)
 }
 
 .relative {

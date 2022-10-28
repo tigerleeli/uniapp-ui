@@ -55,7 +55,7 @@
 	text-align: right;
 }
 
-/* 字体 */
+/* 字体颜色 */
 
 .text-blue {
 	color: #007AFF;
@@ -79,4 +79,13 @@
 
 .text-red {
 	color: #ff3B2D;
+}
+
+/* 文字加粗 */
+.bold {
+	font-weight: 600;
+}
+
+.text-hover {
+	background-color: rgba(0, 0, 0, 0.1);
 }

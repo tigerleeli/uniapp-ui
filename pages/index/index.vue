@@ -30,7 +30,7 @@
 					<text class="btn-gray-blue">小按钮</text>
 				</view>
 
-				<view class="text-center margin-top-20">
+				<view hover-class="text-hover" class="text-center margin-top-20">
 					<text class="btn-text">文字按钮</text>
 				</view>
 
@@ -40,7 +40,7 @@
 			</view>
 
 			<view class="bg-white border-radius-20 margin-top-30">
-				<view class="flex padding-30 solid-bottom" hover-class="hover-class">
+				<view class="flex padding-30 solid-bottom" hover-class="bg-hover">
 					<image style="width: 48rpx;height: 48rpx;" mode="aspectFill"
 						class="border-radius-10 margin-right-28" src="../../static/logo.png">
 					</image>
@@ -64,7 +64,7 @@
 						<text class="cuIcon-right text-arrow"></text>
 					</view>
 				</view>
-				
+
 				<view class="flex padding-30 solid-bottom" hover-class="hover-class">
 					<view class="relative" style="width: 96rpx;height: 96rpx;">
 						<image style="width: 96rpx;height: 96rpx;" mode="aspectFill"
@@ -83,7 +83,7 @@
 			</view>
 
 			<view class="bg-white border-radius-20 padding-20 margin-top-30">
-				<view class="bg-gray padding-12 border-radius-16 flex">
+				<view class="bg-search padding-12 border-radius-16 flex">
 					<text class="cuIcon-search text-grey margin-right-8"></text>
 					<view class="flex-1">
 						<input placeholder="请输入搜索关键字" />

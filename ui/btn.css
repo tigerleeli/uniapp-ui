@@ -1,0 +1,21 @@
+.btn-primary {
+	font-size: 30rpx;
+	border-radius: 24rpx;
+}
+
+.btn-gray-blue {
+	color: #007AFF;
+	background-color: #EDEDEF;
+	padding: 8rpx 20rpx;
+	border-radius: 40rpx;
+	font-weight: 600;
+}
+
+.btn-text {
+	color: #007AFF;
+	font-weight: 600;
+}
+
+switch {
+	transform: scale(0.7)
+}
